@@ -1,0 +1,26 @@
+@media screen and (max-width: 767px) {
+    .mon_header {
+        background-color: rgb(0, 234, 255);
+        height: 100px;
+        margin-bottom: 10px;
+
+    }
+
+    .first_section {
+        background-color: rgb(163, 223, 52);
+        height: 200px;
+        margin-bottom: 10px;
+
+    }
+
+    article {
+        background-color: yellow;
+        margin-bottom: 10px;
+        height: 200px;
+    }
+
+    .mon_footer {
+        background-color: red;
+        height: 100px;
+    }
+}

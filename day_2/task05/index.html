@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CodingPedia</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="CodingPedia is a collective encyclopedia">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to CodingPedia!</h1>
+        <nav>
+            <ol>
+                <li><a href="index.html">Index</a></li>
+                <li><a href="php.html">PHP</a></li>
+                <li><a href="sql.html">SQL</a></li>
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <p>CodingPedia is a collective encyclopedia project on the Internet aiming to be universal
+            and multi-lingual which functions as a wiki.<br>CodingPedia has for goal to offer freely reusable objective
+            and verifiable content that anyone can modify and improve.
+        </p>
+        <section>
+            <form method="get" action="">
+                <p>
+                    <label for="Name">Name :</label><input type="text" name="Name" id="Name" required><br>
+                    <label for="First name">First name :</label><input type="text" name="First name" id="First name"
+                        required><br>
+                    <label for="Email">Email :</label><input type="email" required><br>
+                    <label for="Age">Age :</label><input type="number" min="3" max="99"><br>
+                    <label for="Phone">Phone :</label><input type="tel" minlength="10" maxlength="10"><br>
+                    male or female :<br>
+                    <input type="radio" name="Sex" value="male" id="male" checked><label for="male">male</label><br>
+                    <input type="radio" name="Sex" value="female" id="female"><label for="female">female</label><br>
+                    <label for="Hair color">Hair color :</label><input type="color"> <br>
+                    <label for="Date">Date :</label><input type="date" required><br>
+                    <label for="Technology">Technology :</label><br>
+                    <select name="Technology" id="Technology">
+                        <option value="PHP">PHP</option>
+                        <option value="SQL">SQL</option>
+                    </select><br>
+                    <label for="Question">Question :</label><br>
+                    <textarea name="Question" id="Question"></textarea> <br>
+                    <input type="submit" value="Submit">
+                </p>
+            </form>
+        </section>
+    </main>
+    <aside>
+        <p>
+            Bonjour ! Je m'appelle Alysson.
+        </p>
+    </aside>
+
+</body>
+<footer>
+    <address>
+        Deligny Alysson<br>alysson.deligny@epitech.eu<br>0787282259
+    </address>
+</footer>
+
+</html>
